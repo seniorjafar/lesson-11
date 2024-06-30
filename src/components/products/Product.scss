@@ -1,0 +1,57 @@
+.products{
+    display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3 , 1fr);
+
+    .katalog__card{
+            max-width: 420px;
+            height: 250px;
+            border-radius: 20px;
+            padding: 32px;
+            display: flex;
+            background: #F2F2F2;
+            justify-content: space-between;
+            transition: .3s;
+            .card__left{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h3{
+                    font-family: Manrope;
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 22px;
+                    color: #454545;
+                }
+                p{
+                    font-family: Manrope;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 15.4px;
+                    color: #454545;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    svg{
+                    color: #858282;
+                    }
+                }
+            }
+            .card__right{
+                h3{
+                    display: none;
+                }
+                p{
+                display: none;
+                }
+                img{
+                    width: 180px;
+                    height: 205px;
+                    object-fit: contain;
+                }
+            }
+        }
+        .katalog__card:hover{
+            transform: scale(1.03);
+        }
+}
