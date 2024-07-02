@@ -1,11 +1,11 @@
 import React from 'react'
-import './NORNLIGHT.scss'
+import './NornLight.scss'
 
 
-import nor1 from '../../assets/nor1.png'
-import nor2 from '../../assets/nor2.png'
-import nor3 from '../../assets/nor3.png'
-import nor4 from '../../assets/nor4.png'
+import nor1 from '../../assets/image/norn1.png'
+import nor2 from '../../assets/image/norn2.png'
+import nor3 from '../../assets/image/norn3.png'
+import nor4 from '../../assets/image/norn4.png'
 
 
 const NORNLIGHT = () => {
