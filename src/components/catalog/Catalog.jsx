@@ -1,10 +1,10 @@
 import React from 'react'
-import './Katalog.scss'
+import './Catalog.scss'
 import { FaArrowRight } from "react-icons/fa6";
 import Products from '../products/Products';
 
 
-const Katalog = () => {
+const Catalog = () => {
   return (
     <>
       <div className="katalog">
@@ -25,4 +25,4 @@ const Katalog = () => {
   )
 }
 
-export default Katalog
+export default Catalog
