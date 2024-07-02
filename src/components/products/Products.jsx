@@ -10,7 +10,8 @@ const Products = () => {
   if (isError) return <div>Error fetching products</div>;
 
   return (
-    <div className="products">
+    <div className='container'>
+      <div className="products">
       {products && products.length > 0 ? (
         products.map((product) => (
           <div key={product.id} className="katalog__card">
@@ -29,6 +30,8 @@ const Products = () => {
         <div>No products found</div>
       )}
     </div>
+    </div>
+    
   );
 };
 
